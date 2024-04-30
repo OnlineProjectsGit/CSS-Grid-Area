@@ -7,8 +7,6 @@ body {
     width: 100%;
     height: 100vh;
     display: grid;
-    grid-template-columns: repeat(1fr, 3);
-    grid-template-rows: repeat(1fr, 5);
     grid-template-areas:
         "head head head"
         "side mainCont mainCont"
@@ -37,8 +35,6 @@ header {
     border-radius: 50%;
 }
 
-.nav-links {}
-
 #nav-link {
     margin: 5px 10px;
     font-size: 22px;
@@ -51,7 +47,6 @@ header {
     font-weight: 700;
 }
 
-
 aside {
     grid-area: side;
     display: flex;
@@ -60,27 +55,16 @@ aside {
     background-color: beige;
 }
 
-.calendar {}
-
-h3 {}
-
-ul {}
-
-li {}
-
 form {
     display: flex;
     flex-direction: column;
 }
-
 
 main {
     grid-area: mainCont;
     text-align: center;
     background-color: bisque;
 }
-
-h1 {}
 
 .cards {
     width: 70%;
@@ -108,8 +92,6 @@ h1 {}
     border: 1px solid black;
 }
 
-.partner {}
-
 .image-1 {
     background-color: red;
 }
@@ -129,7 +111,6 @@ h1 {}
 .image-5 {
     background-color: orange;
 }
-
 
 footer {
     grid-area: foot;
